@@ -1,9 +1,23 @@
+import Avatar from '../../components/Avatar'
+import Paragrafo from '../../components/Paragrafo'
 import Titulo from '../../components/Titulo'
+
+import { BotaoTema, Descricao, SidebarContainer } from './styles'
 
 const Sidebar = () => (
   <aside>
-    <img src="https://github.com/monosodrac.png" alt="" />
-    <Titulo fontSize={'20'}>Mono Cardoso</Titulo>
+    <SidebarContainer>
+      <Avatar />
+      <Titulo fontSize={'20'}>Mono Cardoso</Titulo>
+      <Paragrafo tipo="secundario" fontSize={16}>
+        monosodrac
+      </Paragrafo>
+      <Descricao tipo="principal" fontSize={12}>
+        Desenvolvedor Full-Stack Python - EBAC | Técnico em Informática para
+        Internet - SENAC
+      </Descricao>
+      <BotaoTema>Trocar tema</BotaoTema>
+    </SidebarContainer>
   </aside>
 )
 
