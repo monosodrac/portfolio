@@ -20,7 +20,7 @@ Este projeto foi desenvolvido como parte do módulo **CSS-in-JS** do curso **Des
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/seu-usuario/seu-repositorio.git
+   git clone https://github.com/monosodrac/portfolio.git
 2. Instale as dependências:
    ```bash
    npm install
