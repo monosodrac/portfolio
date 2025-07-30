@@ -5,11 +5,15 @@ import { GithubSecao } from './styles'
 const Sobre = () => (
   <section>
     <Titulo fontSize={'16'}>Sobre mim</Titulo>
+    <Paragrafo tipo="principal">Hi Im Mono Cardoso! ✌🏻</Paragrafo>
+    <Paragrafo tipo="principal">🔭 Im a Full Stack Web Developer</Paragrafo>
     <Paragrafo tipo="principal">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero obcaecati,
-      dolor, vitae eveniet nam corporis totam veritatis iusto ad dicta expedita
-      pariatur nulla commodi aperiam aliquam, aspernatur quae necessitatibus
-      quaerat?
+      👯 Im looking to collaborate on Mobile Apps and Software Development
+    </Paragrafo>
+    <Paragrafo tipo="principal">☕️ Im passionate about coffee</Paragrafo>
+    <Paragrafo tipo="principal">🎸 Im also a musician</Paragrafo>
+    <Paragrafo tipo="principal">
+      📫 How to reach me: monosodrac@gmail.com
     </Paragrafo>
     <GithubSecao>
       <img src="https://github-readme-stats.vercel.app/api?username=monosodrac&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" />

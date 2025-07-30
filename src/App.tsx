@@ -4,9 +4,10 @@ import { ThemeProvider } from 'styled-components'
 import Projetos from './containers/Projetos'
 import Sidebar from './containers/Sidebar'
 import Sobre from './containers/Sobre'
-import EstiloGlobal, { Container } from './styles'
 import temaLight from './themes/light'
 import temaDark from './themes/dark'
+
+import EstiloGlobal, { Container } from './styles'
 
 function App() {
   const [useTemaDark, setUseTemaDark] = useState(false)

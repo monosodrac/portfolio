@@ -1,49 +1,16 @@
 import Projeto from '../../components/Projeto'
 import Titulo from '../../components/Titulo'
 
-import { Lista } from './styles'
+import { LinhaLista } from './styles'
 
 const Projetos = () => (
   <section>
     <Titulo fontSize={'16'}>Projetos</Titulo>
-    <Lista>
-      <li>
+    <ul>
+      <LinhaLista>
         <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-      <li>
-        <Projeto />
-      </li>
-    </Lista>
+      </LinhaLista>
+    </ul>
   </section>
 )
 
